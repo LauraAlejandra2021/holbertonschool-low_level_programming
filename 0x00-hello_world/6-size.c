@@ -19,7 +19,6 @@ b = 8;
 c = 7;
 d = 3456;
 e = 34, 6;
-
 Printf("size of a char: %d byte(s)\n", sizeof(a));
 Printf("size of a int: %d byte(s)\n", sizeof(b));
 Printf("size of a long int: %d byte(s)\n", sizeof(c));
