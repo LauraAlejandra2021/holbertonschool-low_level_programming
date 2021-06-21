@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
-#include <stdlib.h>
-#include <float.h>
 /**
  * main - Entry point
  *
@@ -9,20 +6,10 @@
  */
 int main(void)
 {
-char a;
-int b;
-long c;
-long long d;
-float e;
-a = 'h';
-b = 8;
-c = 7;
-d = 3456;
-e = 34, 6;
-Printf("size of a char: %d byte(s)\n", sizeof(a));
-Printf("size of a int: %d byte(s)\n", sizeof(b));
-Printf("size of a long int: %d byte(s)\n", sizeof(c));
-Printf("size of a long long: %d bytes(s)\n", sizeof(d));
-Printf("size of a float: %d bytes(s)\n", sizeof(e));
+printf("size of a char: %ld byte(s)\n", sizeof(char));
+printf("size of an int: %ld byte(s)\n", sizeof(int));
+printf("size of a long int: %ld byte(s)\n", sizeof(long int));
+printf("size of a long long int: %ld byte(s)\n", sizeof(long long int));
+printf("size of a float: %ld byte(s)\n", sizeof(float));
 return (0);
 }
