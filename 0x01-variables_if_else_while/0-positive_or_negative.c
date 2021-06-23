@@ -4,9 +4,9 @@
 /**
  *main -Positive or negative.
  *
- *@n: is a number int
+ *description: n is a number whole.
  *
- *return: always 0
+ *Return: always 0
 */
 int main(void)
 {
