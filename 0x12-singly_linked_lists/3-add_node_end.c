@@ -30,7 +30,7 @@ tail->len = strlen(str);
 tail->next = NULL;
 if (*head == NULL)
 {
-*head == tail;
+*head = tail;
 return (*head);
 }
 for (n = *head; n->next != NULL;)
