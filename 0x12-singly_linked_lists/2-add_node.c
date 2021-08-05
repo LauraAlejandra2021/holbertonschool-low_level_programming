@@ -3,7 +3,7 @@
 * add_node - that returns the number of elements in a linked.
 * @head: principal node
 * @str: string
-* Return: addres new node
+* Return: addres new node.
 */
 list_t *add_node(list_t **head, const char *str)
 {
