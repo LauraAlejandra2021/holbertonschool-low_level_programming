@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
- * add_node - that returns the number of elements in a linked.
- * @head: principal node
+* add_node - that returns the number of elements in a linked.
+* @head: principal node
 * @str: string
 * Return: addres new node
 */
