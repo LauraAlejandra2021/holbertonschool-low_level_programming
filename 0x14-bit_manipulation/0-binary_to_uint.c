@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* binary_to-vint - go from binary to unsigned int
+* binary_to-uint - go from binary to unsigned int
 * @b: pinter
 * Return: binary or 0
 */
