@@ -1,20 +1,20 @@
-# makefile recompile dependencies
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 RM = rm -f
-CFLAGS: -Wall -Werror -Wextra -pedantic
+CFLAGS = -Wall -Werror -Wextra -pedantic
 
 all: $(OBJ)
-		$(CC) $(OBJ) -o $(NAME)
+	$(CC) $(OBJ) -o $(NAME)
 
 .PHONY: clean oclean fclean re
 clean:
-		$(RM) *~ $(NAME)
-oclean: 
-		$(RM) $(OBJ)
+	$(RM) *~ $(NAME)
+
+oclean:
+	$(RM) $(OBJ)
 
 fclean: clean oclean
 
-re: all oclean #recompile all dependencies
+re: all oclean
