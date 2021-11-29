@@ -1,0 +1,4 @@
+  #!/usr/bin/python3
+  # FUNCTION THAT CALCULATES THE PERIMETER OF A FIGURE
+
+  
